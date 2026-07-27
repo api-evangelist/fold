@@ -1,8 +1,29 @@
 aid: fold
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fold.png
 name: Fold
-description: 'Fold is a company surfaced as a portfolio company of bessemer-venture-partners, craft-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: >-
+  Fold (NASDAQ: FLD) is a bitcoin financial services company founded in 2014 and
+  based in Atlanta, Georgia, billed as the first publicly traded bitcoin
+  financial services company. Fold makes it easy for individuals and businesses
+  to earn, save, and use bitcoin through consumer products including the Fold
+  App, the Fold Bitcoin Rewards Credit Card, the Fold Debit Card, and the Fold
+  Bitcoin Gift Card marketplace, paying real bitcoin rewards (not points or a
+  proprietary token) on everyday purchases and bill payments. Bitcoin custody
+  and Lightning Network payouts are powered by partners such as BitGo and
+  OpenNode. Fold is a consumer-facing fintech application and does not publish a
+  public developer API, OpenAPI specification, or developer portal; this profile
+  is maintained as a company record in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/fold/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Fintech
+- Bitcoin
+- Cryptocurrency
+- Rewards
+- Payments
+- Personal Finance
+- Debit Card
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +53,18 @@ maintainers:
 common:
 - type: Website
   url: https://foldapp.com
+- type: Blog
+  url: https://blog.foldapp.com/
+- type: Support
+  url: https://support.foldapp.com/
+- type: SignUp
+  url: https://use.foldapp.com/
+- type: TermsOfService
+  url: https://foldapp.com/legal/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://foldapp.com/legal/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
